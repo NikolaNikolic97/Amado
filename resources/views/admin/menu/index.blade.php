@@ -1,0 +1,10 @@
+@extends('layout.admin')
+@section('breadcrumb')
+    Menu
+@endsection
+@section('page_title')
+    Menu
+@endsection
+@section('mainContent')
+    @include('partials.admin.menu.menu_table')
+@endsection

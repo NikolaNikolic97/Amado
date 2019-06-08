@@ -1,0 +1,10 @@
+@extends('layout.admin')
+@section('breadcrumb')
+    Categories
+@endsection
+@section('page_title')
+    Categories
+@endsection
+@section('mainContent')
+    @include('partials.admin.categories.category_table')
+@endsection

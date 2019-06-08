@@ -1,0 +1,10 @@
+@extends('layout.admin')
+@section('breadcrumb')
+    Brands
+@endsection
+@section('page_title')
+    Brands
+@endsection
+@section('mainContent')
+    @include('partials.admin.brands.brands_table')
+@endsection
